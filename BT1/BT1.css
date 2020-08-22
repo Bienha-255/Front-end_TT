@@ -1,0 +1,87 @@
+#A1{
+  position: relative;
+  width: 1000px;
+  height: 2000px;
+  border: 3px solid red;
+  left: 0;
+  overflow-y: auto;
+}
+#A2{
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  border: 3px solid brown;
+  
+
+}
+#A3{
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  bottom :0 ;
+  left: 0 ;
+  border: 3px solid orange;
+  
+}
+#A4{
+  position: absolute;
+  width: 900px;
+  height: 1800px;
+  left:0 ;
+  top: 102px;
+  border: 3px solid blue;
+  
+}
+#A5{
+ 
+  position: absolute;
+  width:600px;
+  height:400px;
+  margin-top:800px;
+  left: 200px;
+   
+  display: flex; /* Canh giữa bằng flex */
+  justify-content: center;
+  align-items: center;
+
+  
+  border : 3px solid purple;
+
+}
+#A6{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  
+  border : 3px solid yellow;
+}
+@media only screen and (max-width: 780px) {
+  #A1{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    
+  }
+  #A2{
+    width: 50%;
+    height: 50%;
+    position: fixed;
+  }
+  #A3{
+    width: 50%;
+    height: 50%;
+    position: fixed;
+  }
+  #A4{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+  }
+  #A5{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+  }
+}
